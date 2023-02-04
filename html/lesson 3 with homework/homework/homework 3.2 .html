@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework 3.2</title>
+  </head>
+  <body>
+    <form>
+      <label>Payment Method</label>
+      <hr>
+      <br>
+      <label>Credit Card</label>
+      <br>
+      <br>
+      <label for="number">Credit Card Number</label>
+      <br>
+      <input type="number" id="number" placeholder="4111 1111 1111 1111" style="width: 300px;">
+      <br>
+      <br>
+
+      <label>Credit Card Type</label>
+      <br>
+      <select name="CardType" style="width: 300px;">
+          <option>--Please Select--</option>
+          <option>Type 1</option>
+          <option>Type 2</option>
+          <option>Type 3</option>
+      </select>
+      <br>
+      <br>
+      <label>Expiration Date</label>
+      <br>
+      <select name="Month" style="width: 200px;" aria-placeholder="">
+          <option>Month</option>
+          <optgroup label="Winter">
+              <option>December</option>
+              <option>January</option>
+              <option>February</option>
+          </optgroup>
+          <optgroup label="Spring">
+              <option>March</option>
+              <option>April</option>
+              <option>May</option>
+          </optgroup>
+          <optgroup label="Summer">
+              <option>June</option>
+              <option>July</option>
+              <option>August</option>
+          </optgroup>
+          <optgroup label="Autumn">
+              <option>September</option>
+              <option>October</option>
+              <option>November</option>
+          </optgroup>
+      </select>
+      <select name="Year" style="width: 100px;">
+          <option>Year</option>
+          <option>2022</option>
+          <option>2021</option>
+          <option>2020</option>
+          <option>2019</option>
+          <option>2018</option>
+          <option>2017</option>
+          <option>2016</option>
+          <option>2015</option>
+          <option>2014</option>
+          <option>2013</option>
+          <option>2012</option>
+          <option>2011</option>
+          <option>2010</option>
+      </select>
+      <br>
+      <br>
+      <label for="verification">Card Verification Number</label>
+      <br>
+      <input type="number" min="100" max="999" id="verification" placeholder="123">
+  </form>
+    </form>
+  </body>
+</html>

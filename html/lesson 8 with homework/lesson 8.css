@@ -1,0 +1,43 @@
+#container {
+    width: 54%;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: blue;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    grid-gap: 10px;
+}
+
+#container>div {
+    background-color: red;
+    width: 125px;
+    font-size: 36px;
+    text-align: center;
+}
+
+#thirdelement {
+    background-color: green !important;
+    /* align-self: center; */
+    /* order: -1; */
+}
+
+#firstelemnt:hover {
+    /* align-self: flex-end; */
+    background-color: purple;
+    /* order: 1; */
+}
+.el:hover{
+    background-color: black;
+}
+
+#button{
+    /* background-color: green; */
+padding: 15px;
+}
+#button:hover{
+    background-color: indigo;
+}
+#button:active{
+    background-color: aqua;
+}

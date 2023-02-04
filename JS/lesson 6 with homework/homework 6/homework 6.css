@@ -1,0 +1,120 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+}
+
+.GourmetauCatering {
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+}
+
+.GourmetauCatering:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+.containarOfGourmet {
+    padding: 15px 20px;
+}
+
+#displayflexForHead {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 7px 1px;
+    background-color: white;
+}
+
+.nav {
+    margin-top: 15px;
+}
+
+.navigator {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.navigator:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+.img-burger {
+    background-image: url(hamburger.jpg);
+    width: 100%;
+    height: 730px;
+    background-repeat: no-repeat;
+
+}
+
+.LeCatering {
+    padding-top: 1px;
+}
+
+.textOnImage {
+    padding-top: 650px;
+    padding-left: 35px;
+    color: rgb(139, 139, 139);
+    font-size: 50px;
+}
+
+.content {
+    width: 75%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.catering {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.text {
+    padding-right: 10px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.secondtext{
+    color: rgb(170, 170, 170);
+}
+
+.menucontainer{
+    display: flex;
+    padding-top: 60px;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.aboutmenu{
+    color: rgb(155, 155, 155);
+}
+
+.OurMenu{
+    text-align: center;
+}
+
+.bold{
+    color :#607d8b;
+}
+
+.nameinput{
+    width: 100%;
+    padding: 20px 5px;
+    border-style: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+input:last-child {
+    padding: 15px 15px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+input:last-child:hover {
+    background-color: rgb(214, 212, 212);
+}

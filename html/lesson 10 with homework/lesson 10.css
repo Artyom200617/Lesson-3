@@ -1,0 +1,51 @@
+#container {
+    width: 700px;
+    height: 700px;
+    background-color: blue;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 20px;
+}
+
+.cube {
+    width: 250px;
+    height: 250px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cube1 {
+    background-color: black;
+    transition: transform 1s linear;
+    animation: cubeRotation 1s linear infinite;
+    animation-delay: 5s;
+    animation-direction: normal;
+}
+
+#cube2 {
+    background-color: green;
+    transition: border-radius 1s linear;
+}
+
+#cube2:hover {
+    border-radius: 50%;
+}
+
+#cube1:hover {
+    /* transform: rotate(180deg); */
+    animation: none;
+}
+
+@keyframes cubeRotation {
+ from {
+    transform: rotate(0deg);
+ }
+ to{
+    transform: rotate(360deg);
+    border-radius: 50%;
+ }
+}

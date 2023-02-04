@@ -1,0 +1,22 @@
+body{
+    margin-left: 30px;
+    
+}
+.container{
+    display: flex;
+}
+.summerhouse{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    position: relative;
+    justify-content: flex-start;
+}
+.house1{
+    position: absolute;
+}
+.house1:hover{
+    width: 350px;
+    height: 230px;
+}

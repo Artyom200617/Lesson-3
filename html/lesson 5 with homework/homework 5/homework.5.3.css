@@ -1,0 +1,75 @@
+.body {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: rgb(253, 212, 189);
+}
+
+.header {
+    margin: 10px 15px;
+    border: 2px black solid;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(156, 193, 248);
+}
+
+.container {
+    display: flex;
+}
+
+.main {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: rgb(253, 212, 189);
+    margin-left: 7px;
+    margin-right: 20px;
+    width: 60%;
+    margin-bottom: 30px;
+    padding: 1%
+}
+
+.aside {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: rgb(253, 212, 189);
+    margin-left: 40px;
+    /* margin-right: 20px; */
+    height: 100px;
+    padding-left: 20px;
+    margin-top: 7px;
+    width: 30%;
+    height: 200px;
+}
+
+.img {
+    border: 2px black solid;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(156, 193, 248);
+}
+
+div:not(.container, .aside,.footer) {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+.article4 {
+    padding: 8px 5px;
+    background-color: rgb(156, 193, 248);
+}
+
+.content {
+    background-color: rgb(156, 193, 248);
+    padding: 9px 7px;
+}
+
+.footer{
+    background-color: rgb(156, 193, 248);
+    height: 30px;
+    margin-bottom: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

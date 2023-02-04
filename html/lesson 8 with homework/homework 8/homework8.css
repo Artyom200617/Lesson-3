@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+
+    display: flex;
+}
+
+#template p:nth-child(1) {
+    font-size: 25px;
+    color: rgb(173, 173, 173);
+    margin-bottom: 5px;
+}
+
+#template p:nth-child(2) {
+    color: rgb(173, 173, 173);
+    margin-top: 5px;
+
+}
+
+#template {
+    margin-left: 20%;
+}
+
+.textlink {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+
+.first {
+    list-style-type: none;
+    font-size: 13px;
+    color: rgb(173, 173, 173);
+    padding: 10px;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.first:hover {
+    padding: 10px 20px;
+    background-color: rgb(206, 206, 206);
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#container{
+    width: 70%;
+    margin: auto;
+    
+   
+}
+.box{
+    border: 1px solid grey;
+    width: 210px;
+    margin-left: 10px;
+    
+}
+.box-border{
+    height: 150px;
+ background-color: black;
+ margin: 2px;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#mean-box{
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+    color: orange;
+    display: flex;
+    justify-content: flex-end;
+}
+#displeylorem{
+    display: flex;
+
+}
+#footer{
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    display: flex;
+}
+#ptegdiv2{
+    color:rgb(173, 173, 173) ;
+    margin-left: 30%;
+}
+
+#ptegdiv{
+    color:rgb(173, 173, 173) ;
+    margin-left: 15%;
+}
+.photo{
+    display: flex;
+}
+.x32{
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}

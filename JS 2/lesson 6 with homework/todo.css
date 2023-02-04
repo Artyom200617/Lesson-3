@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(70deg, blue, pink);
+}
+
+.container {
+    background-color: rgb(231, 79, 79);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.inputtext {
+    padding: 10px 20px;
+}
+
+.addtodo {
+    padding: 11px 22px;
+    cursor: pointer;
+    background-color: white;
+    border: none
+}
+
+.addtodo:hover {
+    background-color: black;
+    color: white;
+}

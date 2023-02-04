@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 682px;
+	border: 1px solid black;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+#header {
+	width: 100%;
+	height: 50px;
+	background-color: rgb(235, 230, 230);
+	font-size: 30px;
+	color: black;
+	padding: 5px;
+	box-sizing: border-box;
+	padding: 10px 10px 0px 10px;
+}
+#span {
+	text-transform: capitalize;
+	text-align: 10px;
+}
+
+.same {
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#countryID {
+	width: 91%;
+}
+
+#usernameID {
+	width: 90%;
+}
+
+#streetID {
+	width: 305px;
+}
+
+#aptID {
+	width: 280px;
+}
+
+#details {
+	padding-left: 10px;
+}
+.zct {
+	width: 193.33333px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: lightgray;
+	background-color: rgb(222, 242, 255);
+	padding: 0px 10px 5px 10px;
+	box-sizing: border-box;
+}
+
+#cancel {
+	background-color: #ffffff;
+	border: none;
+	color: rgb(0, 0, 0);
+	padding: 7px 9px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+#save {
+	background-color: #2aa5b0;
+	border: none;
+	color: #fff;
+	padding: 7px 9px;
+	text-decoration: none;
+	float: right;
+	margin-top: 10px;
+}
+
+.d {
+	padding-top: 10px;
+	padding-bottom: 9px;
+	/* display: block; */
+}
+
+.labelContainer {
+	display: inline-block;
+}

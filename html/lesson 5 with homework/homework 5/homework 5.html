@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style1.css" />
+		<title>Homework 4.1</title>
+	</head>
+	<body>
+		<article>
+			<header id="header">
+				<a>Enter an address</a>
+			</header>
+		</article>
+		<main>
+			<form id="details">
+				<!-- Country -->
+
+				<label for="countryID" class="d"> Country </label>
+				<br />
+				<select name="country" id="countryID" class="same">
+					<option value=" UnitedStates">United States</option>
+					<option value="Africa">Africa</option>
+					<option value="Wales">Wales</option>
+				</select>
+
+				<br />
+				<br />
+
+				<!-- Name -->
+				<label for="usernameID" class="d"> Full name</label>
+				<input
+					id="usernameID"
+					class="same"
+					type="text"
+					name="userName"
+					placeholder="Dani Grenier"
+				/>
+
+				<br />
+				<br />
+
+				<div>
+					<!-- Street -->
+					<span class="labelContainer">
+						<label for="streetID" class="d"> Street </label> <br />
+						<input id="streetID" class="same" type="text" name="street" />
+					</span>
+
+					<!-- Apt -->
+					<span class="labelContainer">
+						<label for="aptID" class="d"> Apt / Suite / Other </label> <br />
+						<input id="aptID" class="same" type="text" name="apt" />
+					</span>
+				</div>
+
+				<!-- Zip city apt -->
+				<div>
+					<span class="labelContainer">
+						<label for="zipID" class="d"> Zip Code </label>
+						<br />
+						<input id="zipID" class="same details zct" type="text" name="zip" />
+					</span>
+
+					<span class="labelContainer">
+						<label for="cityID" class="d"> City </label>
+						<br />
+						<input id="cityID" class="same details zct" type="text" name="city" />
+					</span>
+					<span class="labelContainer">
+						<label for="stateID" class="d"> State </label>
+						<br />
+						<select name="state" id="stateID" class="same details zct">
+							<option value="">Select State</option>
+							<option value="california">California</option>
+							<option value="texas">Texas</option>
+						</select>
+					</span>
+				</div>
+			</form>
+		</main>
+		<br />
+		<footer>
+			<button type="submit" id="cancel"><strong>Cancel</strong></button>
+
+			<button type="submit" id="save"><strong>Save this address</strong></button>
+		</footer>
+	</body>
+</html>

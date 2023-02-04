@@ -1,0 +1,97 @@
+body {
+    background-color: gray;
+}
+
+#allevent {
+    background-image: url('shutterstock_538256848-copy.jpg');
+    background-repeat: no-repeat;
+    height: 140px;
+    width: 80%;
+    margin: auto;
+    /* padding-top: 50px; */
+    box-sizing: border-box;
+}
+
+#strong {
+    color: white;
+    font-family: 'Merriweather', serif;
+    padding-left: 700px;
+    font-size: 45px;
+    display: block;
+padding-top: 20px;
+}
+
+#display {
+    display: flex;
+}
+
+#nightlaser {
+    background-image: url('Light-It-Up-Live-LED-Corporate-Entertainment-Hero-300x300.jpg');
+    width: 250px;
+    height: 210px;
+    margin-top: 30px;
+}
+
+#textnight {
+    background-color: white;
+    width: 250px;
+    height: 220px;
+    margin-bottom: 270px;
+}
+
+.night {
+    padding-left: 10px;
+
+}
+
+#nightlasershow {
+    font-family: 'Merriweather', serif;
+}
+
+#seemore-div {
+    margin-left: 65px;
+    margin-top: 35px;
+}
+
+#seemore {
+    background-color: rgb(0, 153, 255);
+    border-radius: 50px;
+    border: 2px solid rgb(0, 153, 255);
+    text-decoration: none;
+    padding: 8px 8px;
+    color: white;
+    transition: 0.3s;
+}
+
+#seemore:hover {
+    padding: 13px 13px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#first {
+    margin-left: 125px;
+}
+
+#second {
+    margin-left: 20px;
+}
+
+#livemusic {
+    background-image: url('livemusic.jpg');
+    width: 250px;
+    height: 210px;
+    margin-top: 30px;
+}
+
+#textlive {
+    background-color: white;
+    width: 250px;
+    height: 220px;
+}
+#DJ{
+    background-image: url('dj300.jpg');
+    width: 250px;
+    height: 210px;
+    margin-top: 30px;
+}

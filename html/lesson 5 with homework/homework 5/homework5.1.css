@@ -1,0 +1,42 @@
+.divbig {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 40%;
+}
+
+.text {
+    padding-left: 20px;
+}
+
+.container {
+    /* border: 2px black solid; */
+    display: flex;
+}
+
+.a {
+    border: 2px black solid;
+    width: 65%;
+    margin: 5px;
+    height: 150px;
+    margin-left: 15px;
+}
+
+.d {
+    border: 2px black solid;
+    margin: 5px;
+    width: 20%;
+    height: 250px;
+    margin-left: 4%;
+}
+
+.b{
+    border: 2px black solid;
+width: 30%;
+height: 30px;
+}
+
+.c{
+    border: 2px black solid;
+
+}

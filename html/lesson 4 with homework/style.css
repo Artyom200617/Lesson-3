@@ -1,0 +1,19 @@
+h1{
+    font-size: 10px;
+    color: brown;
+}
+div{
+    background-color: blue;
+}
+span{
+background-color: darkcyan;
+
+}
+div>h1{
+color: cornsilk;
+font-size: 25px
+}
+#aartyom{
+    width: 30px;
+    color: red;
+}
